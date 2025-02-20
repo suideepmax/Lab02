@@ -4,7 +4,7 @@
 # element twice. You can return the answer in any order.
 
     .data
-nums:   .word 2, 7, 11, 7  # Example array
+nums:   .word 2, 7, 11, 7   # Example array [2, 7, 11, 7]
 target: .word 9             # Example target
 size:   .word 4             # Size of the array
 
