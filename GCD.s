@@ -1,3 +1,5 @@
+ #Calculate GCD using Euclidian algorithm
+ 
         .data
 
         .text
