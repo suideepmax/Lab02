@@ -1,5 +1,5 @@
         .data
-        
+
         .text
         .globl _start
 
@@ -8,14 +8,14 @@ _start:
         li a1, 1250         # Load second number into a1
         jal ra, gcd         # Call gcd function
 
-        # Print result
+        # Print resultxx
         li a7, 1            # syscall for print integer
         ecall               # Print GCD in a0
 
         li a7, 10           # Exit syscall
         ecall
 
-# Function to compute GCD using Euclidean Algorithm
+# Euclidean Algorithm
 gcd:
         beq a1, zero, done  # If b == 0, return a0 as GCD
 
